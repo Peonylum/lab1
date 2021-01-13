@@ -12,8 +12,12 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
+     border: 5px groove purple;
      padding: 20px;
+     background-color: #b7e2fc;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-style: oblique;
+     color: navy;
 }
 
 .jumbotron {
@@ -35,4 +39,10 @@ body {
 
 .project {
      margin-left: 20px;
+}
+
+.project img {
+     height: 60vh;
+     border: solid 2px orange;
+     border-radius: 5px;
 }
